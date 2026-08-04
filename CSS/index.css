@@ -1,0 +1,83 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;    
+    min-height: 100vh;      
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;          
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;    
+    height: 500px;
+    margin: 20px;
+    background-color: black;
+    border: 10px solid grey;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#avvia {
+    font-size: 15pt;
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: opacity 0.2s ease;
+}
+
+#avvia:active {
+    opacity: 0.8;
+}
+
+.forma {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: grey; 
+    margin: 10px auto;      
+    border: 5px solid lightgrey;
+    transition: background-color 0.2s ease; 
+}
+
+.semaforoRosso {
+    background-color: red;
+    box-shadow: 0 0 20px red;
+} 
+
+.semaforoGiallo {
+    background-color: yellow;
+    box-shadow: 0 0 20px yellow;
+}
+
+.semaforoVerde {
+    background-color: green;
+    box-shadow: 0 0 20px green;
+}
+
+.situazione {
+    font-size: 25pt;
+    font-weight: bold; 
+    color: black;
+    margin-top: 20px;
+    min-height: 40px;  
+}
